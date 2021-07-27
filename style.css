@@ -1,0 +1,97 @@
+/** @format */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: purple;
+  color: limegreen;
+  height: 80px !important;
+}
+.header img {
+  width: 130px;
+}
+.header ul {
+  margin-right: 100px;
+}
+.header ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* main card */
+.mainCard {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card1,
+.card2,
+.card3 {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  color: purple;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 25px;
+  box-shadow: 4px 4px 10px gray, -4px -4px 10px gray;
+}
+
+.info {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: justify;
+}
+.info h2 {
+  color: purple;
+  font-size: 42px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #757575;
+  color: white;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding: 8px;
+}
+/* Copyright */
+.copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    width: 90%;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-top: 10px;
+  }
+  .header {
+    height: auto !important;
+  }
+}
